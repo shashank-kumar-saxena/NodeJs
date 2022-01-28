@@ -1,7 +1,7 @@
 //Path Module
 const path = require('path');
 
-console.log(path.sep);//show speperater
+console.log(path.sep);//show saperator
 const filePath = path.join('/content', 'subFolder', 'text.txt');//Show the whole path
 console.log(filePath);
 console.log(path.basename(filePath));
